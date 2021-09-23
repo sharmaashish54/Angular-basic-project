@@ -1,0 +1,4 @@
+<app-slideshow [imgUrls]="ImgUrls1" (slideshowOver)="slideshow1Over()" (slideshowStart)="slideshow1start()"></app-slideshow>
+<h1 *ngIf="ImgUrls1completed">slideshow 1 is completed</h1>
+<app-slideshow [imgUrls]="ImgUrls2" (slideshowOver)="slideshow2Over()" (slideshowStart)="slideshow2start()"></app-slideshow>
+<h1 *ngIf="ImgUrls2completed">slideshow 2 is completed</h1>
